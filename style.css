@@ -1,0 +1,26 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 1.2rem;
+}
+nav li a{
+    color: black;
+    text-decoration: none;
+    margin-left: 6%;
+    
+}
+nav li a:hover{
+    color: rgb(233, 128, 8);
+    text-decoration: none;
+    margin-left: 6%;
+}
+nav {
+    margin-left: 60%;
+    
+    margin-top: 2%;
+}
