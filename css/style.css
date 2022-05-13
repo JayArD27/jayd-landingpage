@@ -53,9 +53,7 @@ article p{
 }
 .floatleft {
     float: left;
-}
-blockquote{
-    margin: 0  10% 0 20%;
+    margin-right: 1rem;
 }
 hr {
     background-color: #020202;
