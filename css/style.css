@@ -62,3 +62,30 @@ hr {
     height: 1.2px;
     border-style: none;
 }
+h1 {
+    text-align: center;
+}
+input, select, textarea {
+    display: flex;
+    justify-content: center;    
+    margin-top: 1rem;
+    padding: 1rem;
+    width: 25rem;
+    margin-right: 20%;
+}
+button{
+    border: none;
+    margin: 2rem;
+    background-color: #FA7F08;
+    color: #fffff5;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+}
+button:hover{
+    background-color: #fffff5;
+    color: #FA7F08;
+    border: #FA7F08 solid 1px;
+}
