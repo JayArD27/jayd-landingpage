@@ -11,9 +11,10 @@ body {
 nav {
     display: flex;
     justify-content: flex-end;
-    margin: 1.5rem 1.5rem 0 0;
+    margin-top: 1.5rem;
     border: #233838 solid 1.3px;
     padding: .6rem;
+    border-right: none;
 }
 nav li{
     list-style-type: none;
@@ -77,7 +78,7 @@ h1 .grit{
     font-weight: 500;
 }
 hr {
-    background-color: #161616;
+    background-color: #354d4d;
     margin: 6rem; 
     height: 1.2px;
     border-style: none;
