@@ -35,8 +35,9 @@ nav li a:hover{
     text-underline-position: under;
 }
 article {
-    margin: 0 auto;
+   margin-left: 40rem;
     width: 40rem;
+    
 }
 article h1{
     font-size: 2.5rem;
@@ -52,7 +53,6 @@ article p{
 .profile{
     width: 20rem;
     display: flex;
-    /* margin-top: 20%; */
 }
 .floatleft {
     float: left;
@@ -91,7 +91,7 @@ input, select, textarea {
     width: 25rem;
     margin-right: 20%;
 }
-button{
+.button-submit{
     border: none;
     margin: 2rem;
     background-color: #FA7F08;
@@ -102,11 +102,12 @@ button{
     font-weight: bold;
     width: 8rem;
 }
-button:hover{
+.button-submit:hover{
     background-color: #fffff5;
     color: #FA7F08;
     border: #FA7F08 solid 1px;
 }
+
 .footer-icons{
     background-color: #348888;
     display: flex;
@@ -120,4 +121,20 @@ footer a{
 }
 footer p{
     text-align: center;
+}
+fieldset {
+    width: 10rem;
+    border-radius: 10px;
+}
+.button-explore{
+    border: none;
+    margin: 2rem;
+    background-color:#fffff5;
+    color: #FA7F08;
+    border: #FA7F08 solid 1px;
+    padding: .5rem;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
 }
