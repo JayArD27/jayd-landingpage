@@ -129,12 +129,17 @@ fieldset {
 .button-explore{
     border: none;
     margin: 2rem;
-    background-color:#fffff5;
-    color: #FA7F08;
-    border: #FA7F08 solid 1px;
+    background-color: #FA7F08;
+    color: #fffff5;
+    border: #fffff5 solid 1px;
     padding: .5rem;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
     width: 8rem;
+}
+.button-explore:hover{
+    background-color:#fffff5;
+    color: #FA7F08;
+    border: #FA7F08 solid 1px;
 }
