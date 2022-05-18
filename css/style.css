@@ -5,9 +5,9 @@ body {
     margin: 0;
     padding: 0;
 }
-body *{
+/* body *{
     outline: red solid 1px;
-}
+} */
 /* NAVIGATION DESIGN */
 nav {
     display: flex;
@@ -46,14 +46,14 @@ section h1{
     font-size: 4rem;
     color: #354d4d;
     font-weight: lighter;
+    margin: 8% 0 0 0;
 }
 h1 .persistence{
-    font-size: 4.5rem;  
+    font-size: 4.5rem;    
 }
 h1 .grit{
     font-style: italic;
     color: #FA7F08;
-    font-weight: 500;
 }
 hr {
     background-color: #354d4d;
@@ -63,7 +63,25 @@ hr {
 }
 blockquote p{
     color: lightslategray;
+    display: flex;
 }
+.button-explore{
+    border: none;
+    background-color: #FA7F08;
+    color: #fffff5;
+    border: #fffff5 solid 1px;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 11rem;
+    margin-top: 3%;
+}
+.button-explore:hover{
+    background-color:#fffff5;
+    color: #FA7F08;
+    border: #FA7F08 solid 1px;
+}
+/* CONTACT DESIGN */
 input, select, textarea {
     display: flex;
     justify-content: center;    
@@ -110,19 +128,4 @@ footer p{
 fieldset {
     width: 10rem;
     border-radius: 10px;
-}
-.button-explore{
-    border: none;
-    background-color: #FA7F08;
-    color: #fffff5;
-    border: #fffff5 solid 1px;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 11rem;
-}
-.button-explore:hover{
-    background-color:#fffff5;
-    color: #FA7F08;
-    border: #FA7F08 solid 1px;
 }
