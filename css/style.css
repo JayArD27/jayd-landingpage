@@ -5,9 +5,10 @@ body {
     margin: 0;
     padding: 0;
 }
-/* body *{
+body *{
     outline: red solid 1px;
-} */
+}
+/* NAVIGATION DESIGN */
 nav {
     display: flex;
     justify-content: flex-end;
@@ -34,30 +35,7 @@ nav li a:hover{
     text-decoration: underline;
     text-underline-position: under;
 }
-article {
-   margin-left: 40rem;
-    width: 40rem;
-    
-}
-article h1{
-    font-size: 2.5rem;
-    margin: 5% 0 10% 10%;
-}
-article h1 .name{
-    color: #FA7F08;
-    font-size: 4rem;
-}
-article p{
-    font-size: 1.3rem;
-}
-.profile{
-    width: 20rem;
-    display: flex;
-}
-.floatleft {
-    float: left;
-    margin-right: 1rem;
-}
+/* SECTION DESIGN */
 section {
     display: flex;
     justify-content: center;
@@ -110,7 +88,11 @@ input, select, textarea {
     color: #FA7F08;
     border: #FA7F08 solid 1px;
 }
-
+.profile{
+    width: 20rem;
+    display: flex;
+}
+/* FOOTER DESIGN */
 .footer-icons{
     background-color: #348888;
     display: flex;
@@ -131,12 +113,10 @@ fieldset {
 }
 .button-explore{
     border: none;
-    margin: 2rem;
     background-color: #FA7F08;
     color: #fffff5;
     border: #fffff5 solid 1px;
     padding: 1rem;
-    border-radius: 10px;
     font-size: 1rem;
     font-weight: bold;
     width: 11rem;
