@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Oswald:wght@700&display=swap');
+
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #fffff5;
@@ -16,6 +19,8 @@ nav {
     border: #233838 solid 1.3px;
     padding: .6rem;
     border-right: none;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
 }
 nav li{
     list-style-type: none;
@@ -35,6 +40,20 @@ nav li a:hover{
     text-decoration: underline;
     text-underline-position: under;
 }
+.button-resume {
+    background-color: #fffff5;
+    border: #F24405 solid 1px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: #F24405;
+    padding: .5rem;
+
+}
+.button-resume:hover {
+    text-decoration: underline;
+    text-underline-position: under;
+    border: #F24405 dotted 1px;
+}
 /* SECTION DESIGN */
 section {
     display: flex;
@@ -46,7 +65,8 @@ section h1{
     font-size: 4rem;
     color: #354d4d;
     font-weight: lighter;
-    margin: 8% 0 0 0;
+    margin: 6% 0 0 0;
+    font-family: 'Oswald', sans-serif;
 }
 h1 .persistence{
     font-size: 4.5rem;    
@@ -54,6 +74,7 @@ h1 .persistence{
 h1 .grit{
     font-style: italic;
     color: #FA7F08;
+    margin: 0;
 }
 hr {
     background-color: #354d4d;
@@ -62,24 +83,26 @@ hr {
     border-style: none;
 }
 blockquote p{
-    color: lightslategray;
+    color: rgb(106, 119, 131);
     display: flex;
+    font-family: 'Inter', sans-serif;
 }
 .button-explore{
     border: none;
-    background-color: #FA7F08;
+    background-color: #F24405;
     color: #fffff5;
     border: #fffff5 solid 1px;
     padding: 1rem;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 550;
+    font-family: 'Inter', sans-serif;
     width: 11rem;
     margin-top: 3%;
 }
 .button-explore:hover{
     background-color:#fffff5;
-    color: #FA7F08;
-    border: #FA7F08 solid 1px;
+    color: #F24405;
+    border: #F24405 solid 1px;
 }
 /* CONTACT DESIGN */
 input, select, textarea {
@@ -93,7 +116,7 @@ input, select, textarea {
 .button-submit{
     border: none;
     margin: 2rem;
-    background-color: #FA7F08;
+    background-color: #F24405;
     color: #fffff5;
     padding: 1rem;
     border-radius: 10px;
@@ -103,12 +126,20 @@ input, select, textarea {
 }
 .button-submit:hover{
     background-color: #fffff5;
-    color: #FA7F08;
-    border: #FA7F08 solid 1px;
+    color: #F24405;
+    border: #F24405 solid 1px;
 }
 .profile{
     width: 20rem;
     display: flex;
+}
+.contact {
+    margin-left: 35%;
+}
+.h1-contact{
+    font-size: 3rem;
+    color: #FA7F08;
+    font-family: 'Oswald', sans-serif;
 }
 /* FOOTER DESIGN */
 .footer-icons{
