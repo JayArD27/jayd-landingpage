@@ -148,14 +148,10 @@ input, select, textarea {
     margin-left: 8%;
 }
 .about-picture {
-    width: 13rem;
+    width: 15rem;
     border-radius: 50%;
     padding: 3rem;
-}
-.about-detail-name{
-    margin: 0;
-    margin-left: 1rem;
-    margin-bottom: .3rem;
+    padding-top: 4rem;
 }
 .about-detail-p, .about-detail-h1 {
     text-align: left;
@@ -163,7 +159,7 @@ input, select, textarea {
     border-radius: 25px;
     border-bottom-left-radius: 0px;
     padding: 1rem;
-    color: #354d4d;
+    color: #233838;
     font-weight: 500;
     margin: 0;
 }
@@ -178,6 +174,15 @@ input, select, textarea {
     text-align: center; 
     font-weight:400;
     color:#354d4d;
+}
+.about-detail-name,.about-detail-status{
+    margin: 0;
+    margin-left: 1rem;
+    margin-bottom: .3rem;
+    color: #354d4d;
+}
+.about-detail-status{
+    color: #a0a0a0;
 }
 /* FOOTER DESIGN */
 .footer-icons{
