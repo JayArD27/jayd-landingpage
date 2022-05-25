@@ -98,6 +98,7 @@ blockquote p{
     font-family: 'Inter', sans-serif;
     width: 11rem;
     margin-top: 3%;
+    cursor: pointer;
 }
 .button-explore:hover{
     background-color:#fffff5;
@@ -123,6 +124,7 @@ input, select, textarea {
     font-size: 1rem;
     font-weight: bold;
     width: 8rem;
+    cursor: pointer;
 }
 .button-submit:hover{
     background-color: #fffff5;
@@ -145,7 +147,7 @@ input, select, textarea {
 .section-about {
     width: 50rem;
     margin-top: 6%;
-    margin-left: 8%;
+    margin-left: 2%;
 }
 .about-picture {
     width: 15rem;
