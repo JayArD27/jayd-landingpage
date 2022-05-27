@@ -7,9 +7,10 @@
     <title>JAYD</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/profileHD (2).png">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
-    <script src="https://kit.fontawesome.com/6dfec6f273.js" crossorigin="anonymous"></script>
+    
     <nav>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
@@ -26,9 +27,21 @@
             <p class="about-detail-status">seen✔✔</p>
         </div>
     </section>
-    <section>
-
-    </section>
+    <h2 style="text-align: center;">PROJECTS</h2>
+    <div class="slider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./img/coverprofile.png" alt="" class="swiper-wrapper-img"></div>
+            <div class="swiper-slide"><img src="./img/profile.png" alt="" class="swiper-wrapper-img"></div>
+            <div class="swiper-slide"><img src="./img/profile.png" alt="" class="swiper-wrapper-img"></div>
+            <div class="swiper-slide"><img src="./img/coverprofile.png" alt="" class="swiper-wrapper-img"></div>
+            <div class="swiper-slide"><img src="./img/profile.png" alt="" class="swiper-wrapper-img"></div>
+        </div>
+        <div class="swiper-button-prev prev"></div>
+        <div class="swiper-button-next"></div>\
+        <div class="swiper-pagination"></div>  
+    </div>
+        
     <hr>
     <footer>
         <div class="footer-icons">
@@ -40,5 +53,8 @@
         </div>
         
     </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/6dfec6f273.js" crossorigin="anonymous"></script>
+    <script src="./gallery.js"></script>
 </body>
 </html>
