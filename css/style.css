@@ -203,6 +203,11 @@ input, select, textarea {
 .about-detail-status{
     color: #a0a0a0;
 }
+.title-project {
+    text-align: center;
+    font-size: 2rem;
+    color: #354d4d;
+}
 .swiper-wrapper-img {
     width: 300px;
     margin-left: 40%;
